@@ -1,0 +1,16 @@
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.exe
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.deps.json
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.runtimeconfig.json
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.runtimeconfig.dev.json
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.dll
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\ref\learning-c-sharp.dll
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\bin\Debug\net5.0\learning-c-sharp.pdb
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.csprojAssemblyReference.cache
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.AssemblyInfoInputs.cache
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.AssemblyInfo.cs
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.csproj.CoreCompileInputs.cache
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.dll
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\ref\learning-c-sharp.dll
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.pdb
+C:\Users\xgla\source\repos\Microsoft\learning-c-sharp\obj\Debug\net5.0\learning-c-sharp.genruntimeconfig.cache

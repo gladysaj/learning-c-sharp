@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\xgla\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\xgla\\.nuget\\packages"
+    ]
+  }
+}
