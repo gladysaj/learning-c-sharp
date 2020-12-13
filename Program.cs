@@ -81,6 +81,42 @@ namespace learning_c_sharp
            // string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
            // string russianLocation = $@"c:\Exercise\{projectName}\ru-RU\data.txt";
            // Console.WriteLine($"{russianMessage}:\n\t\t{russianLocation}\n");
+
+           // Add two numeric values 
+           int firstNumber = 12;
+           int secondNumber = 7;
+           Console.WriteLine(firstNumber + secondNumber);
+           // Mix data types
+           string firstName = "Bob";
+           int widgetsSold = 7;
+           Console.WriteLine(firstName + " sold " + widgetsSold + " widgets.");
+           // Add parentheses to make the operation using the string
+           string firstName = "Bob";
+           int widgetsSold = 7;
+           Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+           // Use decimals instead of int
+           decimal decimalQuotient = 7.0m / 5;
+           Console.WriteLine("Decimal quotient: " + decimalQuotient);
+           //Casting is one type of data conversion that instructs the compiler to temporarily treat a value as if it were a different data type.
+           int first = 7;
+           int second = 5;
+           decimal quotient = (decimal)first / (decimal)second;
+           Console.WriteLine(quotient);
+           // Order of operations PEMDAS (Parentheses, Exponent(System.Math.Pow(), Multiplication, Division, Addition, Subtraction))
+           int value1 = 3 + 4 * 5;
+           int value2 = (3 + 4) * 5;
+           Console.WriteLine(value1);
+           Console.WriteLine(value2);
+
+           // Operators like +=, -=, *=, ++, and -- are known as compound assignment
+           // Increment and decrement 
+           int value = 0;
+           value = value + 1;
+           value++;
+           // Challenge - convert temperature to Celsius
+           int fahrenheit = 94;
+           decimal convertToCelsius = (decimal)(fahrenheit - 32) * 5 / 9;
+           Console.Write($"The temperature is {convertToCelsius} Celsius.");
         }
     }
 }
