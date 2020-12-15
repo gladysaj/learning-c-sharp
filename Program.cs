@@ -410,6 +410,86 @@ namespace learning_c_sharp
         if (order.StartsWith("B")) 
         {
         Console.WriteLine($"Order: {order} starts with letter B");
+
+        // Variable declarations
+        char userOption;
+        int gameScore;
+        float particlesPerMillion;
+        bool processedCustomer;
+
+        // Comment lines of code
+        string firstName = "Bob";
+        int widgetsPurchased = 7;
+        // Testing a change to the message.
+        // int widgetsSold = 7;
+        // Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
+        Console.WriteLine($"{firstName} purchased {widgetsPurchased} widgets.");
+
+        // Multi line comment 
+        /* 
+        This is a long comment 
+        that spans multiple lines
+        just to prove that it can
+        be done.
+        */
+
+        // Poorly commented code - the reader doesn't gain any insight into the purpose of this code
+        Random random = new Random();
+        string[] orderIDs = new string[5];
+        // Loop through each blank orderID
+        for (int i = 0; i < orderIDs.Length; i++)
+        {
+        // Get a random value that equates to ASCII letters A through E
+        int prefixValue = random.Next(65, 70);
+        // Convert the random value into a char, then a string
+        string prefix = Convert.ToChar(prefixValue).ToString();
+        // Create a random number, padd with zeroes
+        string suffix = random.Next(1, 1000).ToString("000");
+        // Combine the prefix and suffix together, then assign to current OrderID
+        orderIDs[i] = prefix + suffix;
+        }
+        // Print out each orderID
+        foreach (var orderID in orderIDs)
+        {
+        Console.WriteLine(orderID);
+
+        // Whitespace is ignored by the C# Compiler
+        // Example 1:
+        Console
+        .
+        WriteLine
+        (
+        "Hello World!"
+        )
+        ;
+
+        // Example 2:
+        string firstWord="Hello";string lastWord="World";Console.WriteLine(firstWord+" "+lastWord+"!");
+
+        // Challenge - make the code more readable
+        /*The high-level purpose of this code is to reverse a string
+        and count the number of times a particular character appears. */
+
+        string originalMessage = "The quick brown fox jumps over the lazy dog.";
+
+        char[] message = originalMessage.ToCharArray();
+        Array.Reverse(message);
+
+        int letterCount = 0;
+
+        foreach (char letter in message)
+        { 
+            if (letter == 'o')
+            { 
+                letterCount++;
+            }
+        }
+ 
+        string newMessage = new String(message);
+
+        Console.WriteLine(newMessage);
+        Console.WriteLine($"'o' appears {letterCount} times.");
+        }
         }
     }
     }
