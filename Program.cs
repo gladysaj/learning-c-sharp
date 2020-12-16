@@ -489,6 +489,123 @@ namespace learning_c_sharp
 
         Console.WriteLine(newMessage);
         Console.WriteLine($"'o' appears {letterCount} times.");
+
+        // Explicit conversions 
+        double x = 1.2345;
+        int y = (int)x;
+
+        // Converting numeric types to string 
+        int x = 4;
+        string xAsString = x.ToString();
+
+        double y = 3.14159;
+        string yAsString = y.toString();
+
+        // Checking for null or empty 
+        //string.isNullOrEmpty();
+        //string.isNullOrWhitespace();
+
+        // Getting a substring 
+        //str.subString(1);
+        //str.subString(0,5);
+        //str.subString(str.Length -1, 1)
+
+        // Removing a substring 
+        //str.Remove(1);
+
+        // Replacing
+        //str.Replace("world", "microsoft");
+
+        // Searching strings
+        // IndexOf() / LastIndexOf()
+        // Contains()
+        // StartsWith() / EndsWith()
+
+        // Trimming whitespace
+        //string str1 = str.TrimStart();
+        //string str2 = str.TrimEnd();
+        //string str3 = str.Trim();
+
+        // Splitting 
+        //string str = " HELLO WORLD";
+        //string[] splitStr1 = str.Split();
+        //string[] splitStr2 = str.Split("O");
+        //string[] splitStr3 = str.Split("Z");
+
+        // Formatted strings 
+        //const string formatStr = "Hello {0}! Such lovely {1} we're having for a {2}, it only rained {3} times! The time is {4}";
+        //const string user = "Gladys";
+        //const string noun = "weather";
+        //const string dayOfWeek = "Tuesday";
+
+        //string str = string.Format(formatStr, user, noun, dayOfWeek, 5, DateTime.Now.ToShortTimeString());
+        //string str2 = string.Format(formatStr); // error
+
+        // Converting strings to other types
+        //string boolStr = "true";
+        //string intStr = "12345";
+        //string doubleStr = "3.14159";
+
+        //bool b = bool.Parse(boolStr); // true
+        //int i = int.Parse(intStr); // 12345
+        //double d = double.Parse(doubleStr); // 3.14159
+        //double d2 = double.Parse(intStr); // 12345
+
+        //int i2 = int.Parse(doubleStr); // error
+
+        // Enumerations 
+        //enum Mood 
+        //{
+          //  Undefined,  // defaults to 0
+         //   Hungry,  // defaults to 1
+          //  Sleepy = 50,
+          //  Grumpy = 10, 
+         //   Happy = 2,
+       // }
+
+       // Convert from enum to int 
+      // var myMood = Mood.Happy;
+      // int myMoodAsInt = (int) myMood;
+
+       // Convert from enum to string
+       //var myMood = Mood.Happy;
+      // int myMoodAsStr = myMood.ToString();
+
+      // Convert from int to enum 
+     // int myInt = 10;
+     // if (Enum.isDefined(typeof(Mood), myInt)) 
+     // {
+     //     var myMood = (Mood) myInt;
+     // }
+     // else 
+     // {
+          //handle error
+      //}
+
+      // Convert from string to enum 
+     // var moodAsStr =  "happy";
+      //var mood = Enum.Parse(typeof(Mood), moodAsStr, true); // Mood.Happy
+     // var mood2 = Enum.Parse(typeof(Mood), moodAsStr) // error
+
+     // STRUCTS  (container for related variables)
+     //public struct Book 
+     //{
+       //  public double price;
+       //  public string title;
+       //  public string author;
+     //}
+
+     // Access the struct members with .
+     //var myBook = new Book();
+
+     //myBook.title = "Jurassic";
+     //myBook.author = "Michael";
+    // myBook.price = 9.99;
+
+    // Reading from the console
+    // Console.Read();
+    // Console.ReadKey();
+    // Console.ReadLine();
         }
         }
     }
